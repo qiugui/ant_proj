@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="execute">
+	
+	<!--创建文件集-->
+	<fileset id="src.path" dir="src">
+		<include name="**/*.*"/>
+		<exclude name="**/*.properties"/>
+	</fileset>
+	
+	<!--创建文件夹-->
+	<target name="init">
+		<delete dir="build"></delete>
+		<mkdir dir="build"/>
+		<mkdir dir="build/src"/>
+		<mkdir dir="build/classes"/>
+		<mkdir dir="build/dist"/>
+	</target>
+	
+	<!--拷贝源代码-->
+	<target name="copyDir" depends="init">
+		<copy todir="build/src">
+			<fileset refid="src.path"/>
+		</copy>
+	</target>
+	
+	<!--编译源代码-->
+	<target name="compile" depends="copyDir">
+		<javac srcdir="src" destdir="build/classes" includeantruntime="false"></javac>
+	</target>
+	
+	<!--打成jar包-->
+	<target name="jar" depends="compile">
+		<jar destfile="build/dist/hello.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-Class" value="jlit.ant.HelloWorld"/>
+				<attribute name="Build-By" value="QiuGui"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<!--执行程序-->
+	<target name="execute" depends="jar">
+		<echo>基于类路径classname执行</echo>
+		<java classname="jlit.ant.HelloWorld" classpath="build/classes">
+			<arg value="张三"/>
+			<arg value="李四"/>
+		</java>
+		
+		<echo>基于jar文件执行</echo>
+		<java jar="build/dist/hello.jar" fork="true">
+			<arg value="张三"/>
+			<arg value="李四"/>
+		</java>
+	</target>
+</project>
