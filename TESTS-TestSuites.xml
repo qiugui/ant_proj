@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="QiuGui" id="0" name="TestHelloWorld" package="jlit.ant.junit3" skipped="0" tests="2" time="0.078" timestamp="2016-06-30T15:09:31">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="F:\workspace\ant_proj\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_20\lib\resources.jar;C:\Program Files\Java\jre1.8.0_20\lib\rt.jar;C:\Program Files\Java\jre1.8.0_20\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_20\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_20\lib\jce.jar;C:\Program Files\Java\jre1.8.0_20\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_20\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_20\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\apache-ant-1.9.7" />
+
+          <property name="java.runtime.version" value="1.8.0_20-b26" />
+
+          <property name="run.test.junit4.class" value="jlit.ant.junit4.TestHelloWorld" />
+
+          <property name="user.name" value="Gui" />
+
+          <property name="build.dir" value="F:\workspace\ant_proj\build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_20\bin" />
+
+          <property name="build.test.classes" value="F:\workspace\ant_proj\build\test\classes" />
+
+          <property name="build.test.report" value="F:\workspace\ant_proj\build\test\report" />
+
+          <property name="java.version" value="1.8.0_20" />
+
+          <property name="user.timezone" value="Asia/Shanghai" />
+
+          <property name="run.test.junit3.class" value="jlit.ant.junit3.TestHelloWorld" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="test.src.dir" value="F:\workspace\ant_proj\test" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_20\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="build.src" value="F:\workspace\ant_proj\build\src" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_20" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="F:\workspace\ant_proj\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="build.lib.dir" value="F:\workspace\ant_proj\build\lib" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.20-b23" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\apache-ant-1.9.7\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\Gui" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;D:\oracle11client\product\11.1.0\client_1\bin;D:\apache-maven-3.2.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Matlab R2013a\runtime\win64;D:\Matlab R2013a\bin;D:\hadoop\hadoop-2.5.2\\bin;D:\python27;D:\vim\vim74;D:\QuickTime\QTSystem\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin;C:\Program Files\Microsoft\Web Platform Installer\;D:\androidstudio\android-sdk-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_20\bin;D:\mySQL\mysql-5.6.21-winx64\bin;D:\SSH Secure Shell Client;D:\eclipse;;.;D:\eclipse\configuration\org.eclipse.osgi\676\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1467299366779 -Declipse.connect.port=50841 -Declipse.pdebuild.home=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=D:\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile F:\workspace\ant_proj\build.xml run-test" />
+
+          <property name="java.class.path" value="D:\apache-ant-1.9.7\lib\ant-antlr.jar;D:\apache-ant-1.9.7\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.7\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.7\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.7\lib\ant-apache-oro.jar;D:\apache-ant-1.9.7\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.7\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.7\lib\ant-commons-logging.jar;D:\apache-ant-1.9.7\lib\ant-commons-net.jar;D:\apache-ant-1.9.7\lib\ant-jai.jar;D:\apache-ant-1.9.7\lib\ant-javamail.jar;D:\apache-ant-1.9.7\lib\ant-jdepend.jar;D:\apache-ant-1.9.7\lib\ant-jmf.jar;D:\apache-ant-1.9.7\lib\ant-jsch.jar;D:\apache-ant-1.9.7\lib\ant-junit.jar;D:\apache-ant-1.9.7\lib\ant-junit4.jar;D:\apache-ant-1.9.7\lib\ant-launcher.jar;D:\apache-ant-1.9.7\lib\ant-netrexx.jar;D:\apache-ant-1.9.7\lib\ant-swing.jar;D:\apache-ant-1.9.7\lib\ant-testutil.jar;D:\apache-ant-1.9.7\lib\ant.jar;D:\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\antdebug.jar;D:\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\remote.jar;D:\eclipse\configuration\org.eclipse.osgi\65\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_20\lib\tools.jar;D:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.1.v20140903-1947.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="build.classes" value="F:\workspace\ant_proj\build\classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Gui\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_20\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="F:\workspace\ant_proj" />
+
+          <property name="build.test.dir" value="F:\workspace\ant_proj\build\test" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="F:\workspace\ant_proj" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.7\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="run.test.classes" value="**/Test*.class" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="F:\workspace\ant_proj\src" />
+
+          <property name="ant.project.invoked-targets" value="run-test" />
+
+          <property name="build.test.src" value="F:\workspace\ant_proj\build\test\src" />
+
+          <property name="build.test.report.html" value="F:\workspace\ant_proj\build\test\report\html" />
+
+      </properties>
+
+      <testcase classname="jlit.ant.junit3.TestHelloWorld" name="testHello" time="0.003" />
+
+      <testcase classname="jlit.ant.junit3.TestHelloWorld" name="testWorld" time="0.001" />
+
+      <system-out><![CDATA[JUnit init.
+JUnit destory.
+JUnit init.
+JUnit destory.
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="QiuGui" id="1" name="TestHelloWorld" package="jlit.ant.junit4" skipped="0" tests="5" time="0.045" timestamp="2016-06-30T15:09:31">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="F:\workspace\ant_proj\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_20\lib\resources.jar;C:\Program Files\Java\jre1.8.0_20\lib\rt.jar;C:\Program Files\Java\jre1.8.0_20\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_20\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_20\lib\jce.jar;C:\Program Files\Java\jre1.8.0_20\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_20\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_20\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\apache-ant-1.9.7" />
+
+          <property name="java.runtime.version" value="1.8.0_20-b26" />
+
+          <property name="run.test.junit4.class" value="jlit.ant.junit4.TestHelloWorld" />
+
+          <property name="user.name" value="Gui" />
+
+          <property name="build.dir" value="F:\workspace\ant_proj\build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_20\bin" />
+
+          <property name="build.test.classes" value="F:\workspace\ant_proj\build\test\classes" />
+
+          <property name="build.test.report" value="F:\workspace\ant_proj\build\test\report" />
+
+          <property name="java.version" value="1.8.0_20" />
+
+          <property name="user.timezone" value="Asia/Shanghai" />
+
+          <property name="run.test.junit3.class" value="jlit.ant.junit3.TestHelloWorld" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="test.src.dir" value="F:\workspace\ant_proj\test" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_20\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="build.src" value="F:\workspace\ant_proj\build\src" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_20" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="F:\workspace\ant_proj\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="build.lib.dir" value="F:\workspace\ant_proj\build\lib" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.20-b23" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\apache-ant-1.9.7\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\Gui" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="D:\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_20/bin/server;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/amd64;C:\Program Files (x86)\Common Files\NetSarang;D:\oracle11client\product\11.1.0\client_1\bin;D:\apache-maven-3.2.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Matlab R2013a\runtime\win64;D:\Matlab R2013a\bin;D:\hadoop\hadoop-2.5.2\\bin;D:\python27;D:\vim\vim74;D:\QuickTime\QTSystem\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin;C:\Program Files\Microsoft\Web Platform Installer\;D:\androidstudio\android-sdk-windows\platform-tools;C:\Program Files\Java\jdk1.8.0_20\bin;D:\mySQL\mysql-5.6.21-winx64\bin;D:\SSH Secure Shell Client;D:\eclipse;;.;D:\eclipse\configuration\org.eclipse.osgi\676\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1467299366779 -Declipse.connect.port=50841 -Declipse.pdebuild.home=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=D:\apache-ant-1.9.7 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile F:\workspace\ant_proj\build.xml run-test" />
+
+          <property name="java.class.path" value="D:\apache-ant-1.9.7\lib\ant-antlr.jar;D:\apache-ant-1.9.7\lib\ant-apache-bcel.jar;D:\apache-ant-1.9.7\lib\ant-apache-bsf.jar;D:\apache-ant-1.9.7\lib\ant-apache-log4j.jar;D:\apache-ant-1.9.7\lib\ant-apache-oro.jar;D:\apache-ant-1.9.7\lib\ant-apache-regexp.jar;D:\apache-ant-1.9.7\lib\ant-apache-resolver.jar;D:\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;D:\apache-ant-1.9.7\lib\ant-commons-logging.jar;D:\apache-ant-1.9.7\lib\ant-commons-net.jar;D:\apache-ant-1.9.7\lib\ant-jai.jar;D:\apache-ant-1.9.7\lib\ant-javamail.jar;D:\apache-ant-1.9.7\lib\ant-jdepend.jar;D:\apache-ant-1.9.7\lib\ant-jmf.jar;D:\apache-ant-1.9.7\lib\ant-jsch.jar;D:\apache-ant-1.9.7\lib\ant-junit.jar;D:\apache-ant-1.9.7\lib\ant-junit4.jar;D:\apache-ant-1.9.7\lib\ant-launcher.jar;D:\apache-ant-1.9.7\lib\ant-netrexx.jar;D:\apache-ant-1.9.7\lib\ant-swing.jar;D:\apache-ant-1.9.7\lib\ant-testutil.jar;D:\apache-ant-1.9.7\lib\ant.jar;D:\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\antdebug.jar;D:\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\remote.jar;D:\eclipse\configuration\org.eclipse.osgi\65\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_20\lib\tools.jar;D:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.1.v20140903-1947.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="build.classes" value="F:\workspace\ant_proj\build\classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Gui\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_20\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="F:\workspace\ant_proj" />
+
+          <property name="build.test.dir" value="F:\workspace\ant_proj\build\test" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="F:\workspace\ant_proj" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\apache-ant-1.9.7\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="run.test.classes" value="**/Test*.class" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="F:\workspace\ant_proj\src" />
+
+          <property name="ant.project.invoked-targets" value="run-test" />
+
+          <property name="build.test.src" value="F:\workspace\ant_proj\build\test\src" />
+
+          <property name="build.test.report.html" value="F:\workspace\ant_proj\build\test\report\html" />
+
+      </properties>
+
+      <testcase classname="jlit.ant.junit4.TestHelloWorld" name="testException" time="0.004" />
+
+      <testcase classname="jlit.ant.junit4.TestHelloWorld" name="testNil" time="0.0" />
+
+      <testcase classname="jlit.ant.junit4.TestHelloWorld" name="testHello" time="0.0" />
+
+      <testcase classname="jlit.ant.junit4.TestHelloWorld" name="testWorld" time="0.0" />
+
+      <testcase classname="jlit.ant.junit4.TestHelloWorld" name="testNotNil" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

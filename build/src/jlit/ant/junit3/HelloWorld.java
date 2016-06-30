@@ -1,4 +1,4 @@
-package jlit.ant.junit4;
+package jlit.ant.junit3;
 
 public class HelloWorld {
 
@@ -10,7 +10,4 @@ public class HelloWorld {
 		return "world";
 	}
 	
-	public void exp() {
-		throw new NumberFormatException();
-	}
 }
